@@ -68,7 +68,7 @@ const UsersForm = ({ getUsers, userselected, deselectusers }) => {
           <i class="fa-solid fa-lock"></i>
           <div>
             <label htmlFor="password" ></label>
-            <input  className="one one1" {...register("password")}  placeholder="Password" type="text" id="password" />
+            <input  className="one one1" {...register("password")}  placeholder="Password" type="password" id="password" />
           </div>
         </div>
 
