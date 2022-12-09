@@ -52,7 +52,7 @@ const UsersForm = ({ getUsers, userselected, deselectusers }) => {
       <form className="user-form" onSubmit={handleSubmit(submit)}>
 
         <div className="data">
-          <i class="fa-solid fa-user"></i>
+          <i className="fa-solid fa-user"></i>
           <div>
             <label htmlFor="first_name" ></label>
             <input className="one1" {...register("first_name")} placeholder="First Name" type="text" id="first_name" />
@@ -65,7 +65,7 @@ const UsersForm = ({ getUsers, userselected, deselectusers }) => {
         </div>
 
         <div className="data">
-          <i class="fa-solid fa-lock"></i>
+          <i className="fa-solid fa-lock"></i>
           <div>
             <label htmlFor="password" ></label>
             <input  className="one one1" {...register("password")}  placeholder="Password" type="password" id="password" />
@@ -73,7 +73,7 @@ const UsersForm = ({ getUsers, userselected, deselectusers }) => {
         </div>
 
         <div className="data">
-          <i class="fa-solid fa-cake-candles"></i>
+          <i className="fa-solid fa-cake-candles"></i>
           <div>
             <label  htmlFor="birthday" ></label>
             <input className="one one1" {...register("birthday")}  type="date" id="birthday" />
@@ -81,7 +81,7 @@ const UsersForm = ({ getUsers, userselected, deselectusers }) => {
         </div>
 
         <div className="data">
-          <i class="fa-solid fa-envelope"></i>
+          <i className="fa-solid fa-envelope"></i>
           <div >
             <label  htmlFor="email" className="one"></label>
             <input className="one one1" {...register("email")}  placeholder="Email" type="email" id="email" />
